@@ -3,7 +3,8 @@
 //  Happy Plant
 //
 //  Created by Joshua Stapley on 5/10/22.
-//  Templated from ibeaconExample by Oleg Simonov and Elijah Allen. Lightly modified for this application.
+//  Templated from ibeaconExample by Oleg Simonov and Elijah Allen. https://github.com/eaallen/ibeaconExample
+//  Lightly modified for this application.
 
 import Foundation
 import CoreLocation

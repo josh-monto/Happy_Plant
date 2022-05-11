@@ -3,7 +3,8 @@
 //  Happy Plant
 //
 //  Created by Joshua Stapley on 5/10/22.
-//  Templated off of ibeaconExample by Oleg Simonov and Elijah Allen. Modified for this application.
+//  Templated off of ibeaconExample by Oleg Simonov and Elijah Allen. https://github.com/eaallen/ibeaconExample
+//  Modified for this application.
 
 import SwiftUI
  
