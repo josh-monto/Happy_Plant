@@ -13,7 +13,7 @@
 		10C67FA4282AE7E700FF8449 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10C67FA3282AE7E700FF8449 /* Preview Assets.xcassets */; };
 		10C67FAB282AE81100FF8449 /* Happy_PlantView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C67FAA282AE81100FF8449 /* Happy_PlantView.swift */; };
 		10C67FAD282AE85700FF8449 /* Happy_PlantBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C67FAC282AE85700FF8449 /* Happy_PlantBase.swift */; };
-		10C67FAF282AE9D200FF8449 /* Happy_PlantBeacons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C67FAE282AE9D200FF8449 /* Happy_PlantBeacons.swift */; };
+		10C67FAF282AE9D200FF8449 /* Happy_PlantSensors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C67FAE282AE9D200FF8449 /* Happy_PlantSensors.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,7 +24,7 @@
 		10C67FA3282AE7E700FF8449 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		10C67FAA282AE81100FF8449 /* Happy_PlantView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Happy_PlantView.swift; sourceTree = "<group>"; };
 		10C67FAC282AE85700FF8449 /* Happy_PlantBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Happy_PlantBase.swift; sourceTree = "<group>"; };
-		10C67FAE282AE9D200FF8449 /* Happy_PlantBeacons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Happy_PlantBeacons.swift; sourceTree = "<group>"; };
+		10C67FAE282AE9D200FF8449 /* Happy_PlantSensors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Happy_PlantSensors.swift; sourceTree = "<group>"; };
 		10C67FB0282AECF800FF8449 /* Happy-Plant-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Happy-Plant-Info.plist"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
@@ -63,7 +63,7 @@
 				10C67F9C282AE7E500FF8449 /* Happy_PlantApp.swift */,
 				10C67F9E282AE7E500FF8449 /* ContentView.swift */,
 				10C67FAC282AE85700FF8449 /* Happy_PlantBase.swift */,
-				10C67FAE282AE9D200FF8449 /* Happy_PlantBeacons.swift */,
+				10C67FAE282AE9D200FF8449 /* Happy_PlantSensors.swift */,
 				10C67FA0282AE7E700FF8449 /* Assets.xcassets */,
 				10C67FA2282AE7E700FF8449 /* Preview Content */,
 			);
@@ -152,7 +152,7 @@
 				10C67F9F282AE7E500FF8449 /* ContentView.swift in Sources */,
 				10C67F9D282AE7E500FF8449 /* Happy_PlantApp.swift in Sources */,
 				10C67FAD282AE85700FF8449 /* Happy_PlantBase.swift in Sources */,
-				10C67FAF282AE9D200FF8449 /* Happy_PlantBeacons.swift in Sources */,
+				10C67FAF282AE9D200FF8449 /* Happy_PlantSensors.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,8 +287,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Happy-Plant-Info.plist";
-				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Use location to enhance user experience";
-				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Use location to enhance user experience";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Used to connect to plant soil moisture sensors";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -318,8 +317,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Happy-Plant-Info.plist";
-				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Use location to enhance user experience";
-				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Use location to enhance user experience";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Used to connect to plant soil moisture sensors";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
